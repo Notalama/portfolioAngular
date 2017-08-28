@@ -1,0 +1,47 @@
+[
+	{
+		"id": "secured-options",
+		"title": "Secured Options",
+		"image": "img/secure-options.jpg",
+		"type": "simple",
+		"small_descr": "HTML from PSD",
+		"description": "Simple site PSD to HTML. The very first project.",
+		"age": 1
+	},
+	{
+		"id": "fishhunter",
+		"title": "Fishhunter",
+		"image": "img/fishhunter_template.jpg",
+		"type": "simple",
+		"small_descr": "HTML from PSD",
+		"description": "The same as Secured options. Only simple HTML from PSD. The one of the first projects.",
+		"age": 2
+	},
+	{
+		"id": "autostrada",
+		"title": "autostrada.com.ua",
+		"image": "img/autostrada.jpg",
+		"type": "wordpress",
+		"small_descr": "Template on Wordpress",
+		"description": "It is not difficult site with the blog of the company. This site is on Wordpress. But I had to only and this project after low skilled developer.",
+		"age": 3
+	},
+	{
+		"id": "sika",
+		"title": "sikahome.com.ua",
+		"image": "img/sika.jpg",
+		"type": "wordpress",
+		"small_descr": "Product site on Wordpress",
+		"description": "Site with the lists of services and products of the company and the news blog. This site is on Wordpress. It includes a map with company dillers and huge list of soreted products. And I didn't start it, but only had to finish the project after previous developer.",
+		"age": 4
+	},
+	{
+		"id": "portfolio",
+		"title": "notalama.github.io/ng-portfolio/",
+		"image": "img/portfolio.jpg",
+		"type": "angular",
+		"small_descr": "Built with AngularJS",
+		"description": "This is the one I fully created by myself only. You can look the code and see that it is built with AngularJS and some moments with Jquery. Here I used Services, Repeaters, Json, $HTTP requests, Multiple-view, Dependency Injection, NG-animations, Filters. The file organization is based on official documentation and the code is written following the instructions of the styleguide. The form in Contacts section is working. So you can send me email and I'll give you feedback.",
+		"age": 5
+	}
+]

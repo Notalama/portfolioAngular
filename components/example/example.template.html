@@ -1,0 +1,39 @@
+<div class="section-header" id="examples">
+	<h2>Portfolio</h2>
+	<div>
+		<p>Recent work</p>
+		<div class="divider"></div>
+	</div>
+</div>
+<div class="container">
+	<div class="row">
+		<div class="examples-navigation d-flex justify-content-center">
+			<div class="nav-item" ng-class="{'active':$ctrl.activeTab === 1}" ng-click="$ctrl.showAll()">All</div>
+			<div class="nav-item" ng-class="{'active':$ctrl.activeTab === 2}" ng-click="$ctrl.showAngular()">AngularJS</div>
+			<div class="nav-item" ng-class="{'active':$ctrl.activeTab === 3}" ng-click="$ctrl.showWordpress()">Wordpress</div>
+			<div class="nav-item" ng-class="{'active':$ctrl.activeTab === 4}" ng-click="$ctrl.showTheRestExamples()">The rest</div>
+		</div>
+		<div class="item-container d-flex flex-row flex-wrap align-items-stretch">
+			<div class="e-item col-md-3 nav-animation" ng-repeat="item in $ctrl.examples track by $index">
+				<img ng-src="{{item.image}}" alt="{{item.title}}">
+				<div class="item-cont d-flex align-items-center flex-column justify-content-center">
+					<h3>{{item.title}}</h3>
+					<p>{{item.small_descr}}</p>
+					<a ng-click="$ctrl.openModal(item.title)">Look closer</a>
+				</div>
+				<div class="modal-wrap" ng-show="$ctrl.isModalOpen">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<a href="#examples" class="close-modal" ng-click="$ctrl.closeModal()">
+								<i class="fa fa-times"></i>
+							</a>
+							<h3>{{$ctrl.modalExample.title}}</h3>
+							<p>{{$ctrl.modalExample.description}}</p>
+							<img ng-src="{{$ctrl.modalExample.image}}" alt="{{$ctrl.modalExample.title}}">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,62 @@
+<div class="section-header" id="contacts">
+	<h2>Contacts</h2>
+	<div>
+		<p>You can leave a message</p>
+		<div class="divider"></div>
+	</div>
+</div>
+<div class="container">
+	<div class="row">
+		<div class="col-md-6">
+			<div class="contact-box">
+				<div class="contact-icon"><i class="fa fa-map-marker"></i></div>
+				<h3>Address</h3>
+				<p>{{$ctrl.myInfo.personalInfo.address}}</p>
+			</div>
+			<div class="contact-box">
+				<div class="contact-icon"><i class="fa fa-mobile"></i></div>
+				<h3>Phone number</h3>
+				<p>{{$ctrl.myInfo.personalInfo.phoneNumber}}</p>
+			</div>
+			<div class="contact-box">
+				<div class="contact-icon"><i class="fa fa-desktop"></i></div>
+				<h3>Web-site</h3>
+				<a href="{{$ctrl.myInfo.personalInfo.webSite}}">{{$ctrl.myInfo.personalInfo.webSite}}</a>
+			</div>
+		</div>
+		<div class="col-md-6">
+			<form action="https://formspree.io/dkoblenc@gmail.com"  method="POST" name="myForm">
+				<label class="form-group">
+					<span>*</span> Your name:
+					<input type="text" name="name" placeholder="Your name..." required>
+				</label>
+				<label class="form-group">
+					<span>*</span> Your e-mail:
+					<input type="email" placeholder="Your e-mail..." name="_replyto" required>
+				</label>
+				<label class="form-group">
+					<span>*</span> Your message:
+					<textarea placeholder="Your e-mail..." name="_subject" required></textarea>
+				</label>
+				<button>Send message</button>
+			</form>
+		</div>
+	</div>
+</div>
+<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 d-flex flex-row justify-content-between ">
+				<div class="left-foot">© Borys Koblents 2017</div>
+				<div class="right-foot">
+					<ul class="social-wrap">
+						<li><a href="https://www.facebook.com/boria.koblenc"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="https://www.instagram.com/b.koblents/?hl=uk"><i class="fa fa-instagram"></i></a></li>
+						<li><a href="https://www.linkedin.com/in/boris-koblents-23a2b8132/"><i class="fa fa-linkedin"></i></a></li>
+						<li><a href="https://vk.com/rzepa5"><i class="fa fa-vk"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>

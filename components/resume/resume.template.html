@@ -1,0 +1,37 @@
+<div class="section-header" id="resume">
+	<h2>Resume</h2>
+	<div>
+		<p>My skills and experience</p>
+		<div class="divider"></div>
+	</div>
+</div>
+<div class="container">
+	<div class="row">
+		<div class="col-md-6 left">
+			<h3>Experience</h3>
+			<div class="resume-icon"><i class="fa fa-briefcase"></i></div>
+			<div class="resume-post" ng-repeat="(post, postValue) in $ctrl.myInfo.experience">
+				<div class="year">{{postValue[1]}}</div>
+				<div class="resume-descr">
+					<i>{{post}}</i><strong>{{postValue[0]}}</strong>
+				</div>
+				<p>
+					{{postValue[2]}}
+				</p>
+			</div>
+		</div>
+		<div class="col-md-6 right">
+			<h3>Skills</h3>
+			<div class="resume-icon"><i class="fa fa-id-card-o" aria-hidden="true"></i></div>
+			<div class="resume-post" ng-repeat="(post, postValue) in $ctrl.myInfo.skills">
+				<div class="year">{{postValue[1]}}</div>
+				<div class="resume-descr">
+					<i>{{post}}</i><strong>{{postValue[0]}}</strong>
+				</div>
+				<p>
+					{{postValue[2]}}
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
