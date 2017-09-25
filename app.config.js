@@ -10,9 +10,9 @@ angular.
         when('/', {
           template: '<portfolio-header></portfolio-header>'
         }).
-        // when('/example', {
-        //   template: '<example></example>'
-        // }).
+        when('/forms', {
+          template: '<forms></forms>'
+        }).
         when('/navigation', {
           template: '<navigation></navigation>'
         }).
