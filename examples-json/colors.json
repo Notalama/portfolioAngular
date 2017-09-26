@@ -1,0 +1,21 @@
+{
+    "data": [
+        {
+            "value": "lightred",
+            "name": "Lightred"
+        },
+        {
+            "value": "lightgreen",
+            "name": "Lightgreen"
+        },
+        {
+            "value": "lightblue",
+            "name": "Lightgreen"
+        },
+        {
+            "value": "lime",
+            "name": "Lime"
+        }
+    ]
+
+}

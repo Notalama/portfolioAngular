@@ -423,21 +423,6 @@ section {
       text-decoration: none; }
       .contacts .contact-box a:hover {
         color: #000; }
-  .contacts .form-group {
-    display: block;
-    margin-bottom: 20px;
-    color: #888; }
-    .contacts .form-group span {
-      color: orange; }
-    .contacts .form-group input, .contacts .form-group textarea {
-      display: block;
-      width: 100%;
-      border: 1px solid #CCCCCC;
-      text-indent: 12px;
-      line-height: 40px;
-      margin-top: 5px;
-      background-color: transparent;
-      font-size: 12px; }
   .contacts button {
     border: none;
     color: #fff;
@@ -452,6 +437,22 @@ section {
     cursor: pointer; }
     .contacts button:hover {
       background-color: #888; }
+
+.form-group {
+  display: block;
+  margin-bottom: 20px;
+  color: #888; }
+  .form-group span {
+    color: orange; }
+  .form-group input, .form-group textarea, .form-group select {
+    display: block;
+    width: 100%;
+    border: 1px solid #CCCCCC;
+    text-indent: 12px;
+    line-height: 40px;
+    margin-top: 5px;
+    background-color: transparent;
+    font-size: 12px; }
 
 footer {
   margin-top: 45px; }
@@ -482,6 +483,16 @@ footer {
     color: #000; }
     .modal-wrap .close-modal:hover {
       color: orange; }
+
+forms form {
+  margin-top: 10%; }
+  forms form .form-group {
+    color: #fff; }
+    forms form .form-group input::-webkit-input-placeholder, forms form .form-group select::-webkit-input-placeholder, forms form .form-group select {
+      color: #fff; }
+    forms form .form-group select option {
+      background-color: lightblue;
+      padding: 5px 10px; }
 
 ::-webkit-scrollbar {
   width: 2px;

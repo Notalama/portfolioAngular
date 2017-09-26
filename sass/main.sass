@@ -342,21 +342,6 @@ section
 			text-decoration: none
 			&:hover
 				color: #000
-	.form-group
-		display: block
-		margin-bottom: 20px
-		color: #888
-		span
-			color: $accent
-		input, textarea
-			display: block
-			width: 100%
-			border: 1px solid #CCCCCC
-			text-indent: 12px
-			line-height: 40px
-			margin-top: 5px
-			background-color: transparent
-			font-size: 12px
 	button
 		border: none
 		color: #fff
@@ -371,6 +356,21 @@ section
 		cursor: pointer
 		&:hover
 			background-color: #888
+.form-group
+	display: block
+	margin-bottom: 20px
+	color: #888
+	span
+		color: $accent
+	input, textarea, select
+		display: block
+		width: 100%
+		border: 1px solid #CCCCCC
+		text-indent: 12px
+		line-height: 40px
+		margin-top: 5px
+		background-color: transparent
+		font-size: 12px
 footer
 	margin-top: 45px
 	.social-wrap
@@ -399,6 +399,22 @@ footer
 		color: #000
 		&:hover
 			color: $accent
+
+forms
+	form
+		margin-top: 10%
+		.form-group
+			color: #fff
+			input::-webkit-input-placeholder, select::-webkit-input-placeholder, select
+  				color: #fff
+			select
+				option
+					background-color: lightblue
+					padding: 5px 10px
+
+
+
+
 ::-webkit-scrollbar
 	width: 2px
 	background: transparent

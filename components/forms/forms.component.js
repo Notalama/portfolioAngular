@@ -2,12 +2,15 @@
 
 angular.
 module('portfolioApp').
-component('contacts', {
-	templateUrl: 'components/contacts/contacts.template.html',
-	controller: contactsController
+component('forms', {
+	templateUrl: 'components/forms/forms.template.html',
+	controller: formsController
 });
 
-function contactsController($http) {
+formsController.$inject = ['$http'];
+
+function formsController($http) {
 	var self = this;
-	
+
+
 }
