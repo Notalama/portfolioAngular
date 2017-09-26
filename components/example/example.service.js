@@ -1,10 +1,10 @@
 'use strict';
 
 // Define the `example` module
-angular.module('example',[])
+angular.module('portfolioApp',[])
     .factory('exFactory', exFactory);
 
-// exFactory.$inject = [$http];
+exFactory.$inject = [];
 
 function exFactory() {
     return {

@@ -1,5 +1,6 @@
 @import url(../libs/bootstrap/dist/css/bootstrap.min.css);
 @import url(../libs/components-font-awesome/css/font-awesome.min.css);
+@import url(../libs/angular-material/angular-material.min.css);
 @font-face {
   font-family: "roboto-example";
   font-weight: normal;
@@ -485,14 +486,10 @@ footer {
       color: orange; }
 
 forms form {
-  margin-top: 10%; }
-  forms form .form-group {
+  margin-top: 10%;
+  color: #fff; }
+  forms form input::-webkit-input-placeholder, forms form md-select::-webkit-input-placeholder, forms form select {
     color: #fff; }
-    forms form .form-group input::-webkit-input-placeholder, forms form .form-group select::-webkit-input-placeholder, forms form .form-group select {
-      color: #fff; }
-    forms form .form-group select option {
-      background-color: lightblue;
-      padding: 5px 10px; }
 
 ::-webkit-scrollbar {
   width: 2px;

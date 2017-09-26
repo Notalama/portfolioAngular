@@ -4,7 +4,10 @@
 angular.module('portfolioApp', [
   'ngAnimate',
   'ngRoute',
-  'example'
+  'example',
+  'ngAria',
+  'ngMessages',
+  'ngMaterial'
   // 'portfolioHeader',
   // 'navigation',
   // 'resume',

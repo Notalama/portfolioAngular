@@ -7,10 +7,11 @@ component('forms', {
 	controller: formsController
 });
 
-formsController.$inject = ['$http'];
+formsController.$inject = ['$http', 'formsService', 'httpService'];
 
-function formsController($http) {
+function formsController($http, formsService, httpService) {
 	var self = this;
 
+	self.result = formsService;
 
 }
