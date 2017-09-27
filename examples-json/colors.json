@@ -1,8 +1,8 @@
 {
     "data": [
         {
-            "value": "lightred",
-            "name": "Lightred"
+            "value": "khaki",
+            "name": "Khaki"
         },
         {
             "value": "lightgreen",
@@ -10,7 +10,7 @@
         },
         {
             "value": "lightblue",
-            "name": "Lightgreen"
+            "name": "Lightblue"
         },
         {
             "value": "lime",
