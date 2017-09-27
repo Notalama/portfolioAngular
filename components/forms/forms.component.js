@@ -7,9 +7,9 @@ component('forms', {
 	controller: formsController
 });
 
-formsController.$inject = ['$http', 'formsService', '$q'];
+formsController.$inject = ['$http', 'formsService', '$q', '$scope'];
 
-function formsController($http, formsService, $q) {
+function formsController($http, formsService, $q, $scope) {
 
 	var self = this;
 	self.result = {};
@@ -21,6 +21,8 @@ function formsController($http, formsService, $q) {
 	self.init = init;
 
 	init();
+
+	
 
 	function init() {
 		self.getColors().then(function(res) {

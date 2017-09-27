@@ -2,7 +2,7 @@
     <div class="row">
         <div class="top-wrapper">
             <div class="col-md-12">
-                <form action="#">
+                <form action="#" name="testForm">
                     <div class="row">
                         <div class="col-md-6">
                             <div class="layout-row">
@@ -18,7 +18,8 @@
                         <div class="col-md-6">
                             <md-input-container>
                                 <label>Your phrase</label>
-                                <input type="text" ng-model="$ctrl.result.phrase">
+                                <input type="text" ng-model="$ctrl.result.phrase" minlength="6">
+                                <p>{{testForm.$valid}}</p>
                             </md-input-container>
                         </div>
                     </div>
