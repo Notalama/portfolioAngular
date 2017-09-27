@@ -3,9 +3,13 @@
 
 angular.module('portfolioApp', [
   'ngAnimate',
+  
+  'ngAria',
+  'ngMessages',
+  'ngMaterial',
   'ngRoute',
   'example'
-  // 'portfolioHeader',
+  // 'portfolioHeader'
   // 'navigation',
   // 'resume',
   // 'contacts'

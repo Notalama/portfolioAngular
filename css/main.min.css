@@ -1,5 +1,6 @@
 @import url(../libs/bootstrap/dist/css/bootstrap.min.css);
 @import url(../libs/components-font-awesome/css/font-awesome.min.css);
+@import url(../libs/angular-material/angular-material.min.css);
 @font-face {
   font-family: "roboto-example";
   font-weight: normal;

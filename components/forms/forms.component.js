@@ -12,5 +12,7 @@ formsController.$inject = ['$http'];
 function formsController($http) {
 	var self = this;
 
+	self.result = {};
 
+	self.result.colorSelect = "";
 }

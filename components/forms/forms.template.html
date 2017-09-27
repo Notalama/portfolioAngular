@@ -5,7 +5,16 @@
                 <form action="#">
                     <div class="row">
                         <div class="col-md-6">
-                            <label class="form-group">
+
+                            <md-input-container>
+                                <md-select ng-model="$ctrl.result.colorSelect">
+                                    <md-option value="lightblue">lightblue</md-option>
+                                    <md-option value="lightgreen">lightgreen</md-option>
+                                    <md-option value="lime">lime</md-option>
+                                </md-select>
+                            </md-input-container>
+
+                            <!-- <label class="form-group">
                                 <span>*</span>choose color...
                                 <select name="colorSelect" id="">
                                     <option value="lightRed">lightRed</option>
@@ -13,7 +22,7 @@
                                     <option value="lightGreen">lightGreen</option>
                                     <option value="lime">lime</option>
                                 </select>
-                            </label>
+                            </label> -->
                         </div>
                         <div class="col-md-6 form-group">
                             <label class="form-group">
