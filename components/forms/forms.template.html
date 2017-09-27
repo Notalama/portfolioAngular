@@ -1,0 +1,48 @@
+<div class="container">
+    <div class="row">
+        <div class="top-wrapper">
+            <div class="col-md-12">
+                <form action="#">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="layout-row">
+                                <md-input-container class="md-input-container" flex>
+                                    <md-select ng-model="$ctrl.result.colorSelect" placeholder="color...">
+                                        <md-option ng-repeat="item in $ctrl.result.colors" value="{{item.value}}">{{item.name}}</md-option>
+                                    </md-select>
+                                </md-input-container>
+                                <div flex class="selectsreen" ng-class="$ctrl.result.colorSelect">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <md-input-container>
+                                <label>Your phrase</label>
+                                <input type="text" ng-model="$ctrl.result.phrase">
+                            </md-input-container>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="show-difference" layout="row">
+                                <div flex>
+                                    <p ng-if="$ctrl.result.phrase">
+                                        You picked: {{ $ctrl.showResult() }}
+                                    </p>
+                                </div>
+                                <div flex class="resultView">
+                                    <span ng-class="$ctrl.result.colorSelect">
+                                        {{$ctrl.result.phrase}}
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

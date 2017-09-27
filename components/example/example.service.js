@@ -4,7 +4,7 @@
 angular.module('example',[])
     .factory('exFactory', exFactory);
 
-// exFactory.$inject = [$http];
+exFactory.$inject = [];
 
 function exFactory() {
     return {
