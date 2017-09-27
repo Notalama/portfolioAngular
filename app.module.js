@@ -8,7 +8,8 @@ angular.module('portfolioApp', [
   'ngMessages',
   'ngMaterial',
   'ngRoute',
-  'example'
+  'example',
+  'portfolioApp.forms'
   // 'portfolioHeader'
   // 'navigation',
   // 'resume',

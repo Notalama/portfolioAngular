@@ -489,11 +489,36 @@ forms form {
   margin-top: 10%; }
   forms form .form-group {
     color: #fff; }
-    forms form .form-group input::-webkit-input-placeholder, forms form .form-group select::-webkit-input-placeholder, forms form .form-group select {
+    forms form .form-group input::-webkit-input-placeholder {
       color: #fff; }
-    forms form .form-group select option {
-      background-color: lightblue;
-      padding: 5px 10px; }
+  forms form md-input-container md-select {
+    color: #fff; }
+    forms form md-input-container md-select::-webkit-input-placeholde {
+      color: #fff; }
+  forms form .selectsreen {
+    margin: 0 30px;
+    -webkit-border-radius: 5px;
+            border-radius: 5px; }
+  forms form .show-difference {
+    margin-top: 30px; }
+    forms form .show-difference .resultView span {
+      background-color: transparent; }
+
+.lightgreen {
+  background-color: lightgreen;
+  color: lightgreen; }
+
+.lightblue {
+  background-color: lightblue;
+  color: lightblue; }
+
+.lime {
+  background-color: lime;
+  color: lime; }
+
+.white {
+  background-color: #fff;
+  color: #fff; }
 
 ::-webkit-scrollbar {
   width: 2px;
